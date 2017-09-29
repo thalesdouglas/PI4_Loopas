@@ -1,0 +1,15 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.titulo{
+    position: relative;
+    margin: 3%;
+    text-align: center;
+}
+
+.slide_config{
+    margin:0;
+}
