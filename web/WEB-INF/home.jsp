@@ -7,9 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="Libs/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/CSS.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/Carousel.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/lateral_menu.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css's/home.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css's/Carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css's/lateral_menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div class="container-fluid">
@@ -88,6 +88,6 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="Libs/bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
             <script src="Libs/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-            <script src="Libs/js/JS.js" type="text/javascript"></script>
+            <script src="Libs/js/home.js" type="text/javascript"></script>
     </body>
 </html>
