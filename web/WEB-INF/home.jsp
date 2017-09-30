@@ -13,35 +13,25 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class=row>
+            <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <nav class="navbar navbar-default sidebar" role="navigation">
-                        <div class="container-fluid">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
-                                    <span class="sr-only"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>      
-                            </div>
-                            <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
-                                <ul class="nav navbar-nav">
-                                    <li><a>Categorias</a></li>
-                                    <li><a href="#">Marcas</a></li>        
-                                    <li><a href="#">Modelos</a></li>        
-                                    <li><a href="#">Preço</a></li>
-                                </ul>
-                            </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pesquisa">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">Go!</button>
+                            </span>
                         </div>
-                    </nav>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div id="thumbnail-preview-indicators" class="carousel slide slide_config" data-ride="carousel">
                         <!-- INDICADORES -->
                         <ol class="carousel-indicators">
@@ -85,9 +75,35 @@
                     </div> 
                 </div>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="Libs/bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
-            <script src="Libs/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-            <script src="Libs/js/home.js" type="text/javascript"></script>
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <nav class="navbar navbar-default sidebar" role="navigation">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                                    <span class="sr-only"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>      
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a>Categorias</a></li>
+                                    <li><a href="#">Marcas</a></li>        
+                                    <li><a href="#">Modelos</a></li>        
+                                    <li><a href="#">Preço</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Libs/bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
+        <script src="Libs/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="Libs/js/home.js" type="text/javascript"></script>
     </body>
 </html>

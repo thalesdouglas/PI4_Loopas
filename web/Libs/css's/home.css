@@ -13,3 +13,9 @@ body, html{
 .slide_config{
     margin:0;
 }
+
+.pesquisa{
+    display: block;
+    margin: auto;
+}
+
