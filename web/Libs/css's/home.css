@@ -11,11 +11,20 @@ body, html{
 }
 
 .slide_config{
-    margin:0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .pesquisa{
-    display: block;
+    float: none;
     margin: auto;
 }
 
+#footer{
+    margin-top: 2px;
+}
+
+.menu{
+}
