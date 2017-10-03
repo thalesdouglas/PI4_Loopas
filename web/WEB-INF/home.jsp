@@ -14,12 +14,14 @@
         <link href="Libs/css's/lateral_menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container_p container-fluid">
+            <!-- TITULO -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
                 </div>
             </div>
+            <!-- MENU TOPO -->
             <div class="row">
                 <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 menu">
                     <ol class="breadcrumb text-center">
@@ -31,6 +33,7 @@
                     </ol>
                 </div>
             </div>
+            <!-- BUSCA -->
             <div class="row">
                 <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6 pesquisa">
                     <div class="input-group ">
@@ -41,8 +44,9 @@
                     </div>
                 </div>
             </div>
+            <!-- CAROUSEL -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="container_p col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div id="thumbnail-preview-indicators" class="carousel slide slide_config" data-ride="carousel">
                         <!-- INDICADORES -->
                         <ol class="carousel-indicators">
@@ -86,8 +90,9 @@
                     </div> 
                 </div>
             </div>
+            <!-- CATEGORIAS -->
             <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3">
+                <div class="col-sm-2 col-md-2 col-lg-2">
                     <nav class="navbar navbar-default sidebar" role="navigation">
                         <div class="container-fluid">
                             <div class="navbar-header">
@@ -109,99 +114,194 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <div class="shop-card">
-                        <div class="title">
-                            Nike Metcon 2
-                        </div>
-                        <div class="desc">
-                            Men's training shoe
-                        </div>
-                        <div class="slider">
-                            <figure data-color="#E24938, #A30F22">
-                                <img src="http://www.supah.it/dribbble/012/1.jpg" />
-                            </figure>
-                            <figure data-color="#6CD96A, #00986F">
-                                <img src="http://www.supah.it/dribbble/012/2.jpg" />
-                            </figure>
-                            <figure data-color="#4795D1, #006EB8">
-                                <img src="http://www.supah.it/dribbble/012/3.jpg" />
-                            </figure>
-                            <figure data-color="#292a2f, #131519">
-                                <img src="http://www.supah.it/dribbble/012/4.jpg" />
-                            </figure>
-                        </div>
-
-                        <div class="cta">
-                            <div class="price">$130</div>
-                            <button class="btn">Add to cart<span class="bg"></span></button>
+            </div>
+            <!-- PRODUTO INICIO 1 -->
+            <div class="row">
+                <div class="cards col-xs-12 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2"> 
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="2"></li>
+                            </ol>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg"></div>
                 </div>
-                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <div class="shop-card">
-                        <div class="title">
-                            Nike Metcon 2
-                        </div>
-                        <div class="desc">
-                            Men's training shoe
-                        </div>
-                        <div class="slider">
-                            <figure data-color="#E24938, #A30F22">
-                                <img src="http://www.supah.it/dribbble/012/1.jpg" />
-                            </figure>
-                            <figure data-color="#6CD96A, #00986F">
-                                <img src="http://www.supah.it/dribbble/012/2.jpg" />
-                            </figure>
-                            <figure data-color="#4795D1, #006EB8">
-                                <img src="http://www.supah.it/dribbble/012/3.jpg" />
-                            </figure>
-                            <figure data-color="#292a2f, #131519">
-                                <img src="http://www.supah.it/dribbble/012/4.jpg" />
-                            </figure>
-                        </div>
-
-                        <div class="cta">
-                            <div class="price">$130</div>
-                            <button class="btn">Add to cart<span class="bg"></span></button>
+                <!-- PRODUTO INICIO 2 -->
+                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg"></div>
                 </div>
-                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                    <div class="shop-card">
-                        <div class="title">
-                            Nike Metcon 2
-                        </div>
-                        <div class="desc">
-                            Men's training shoe
-                        </div>
-                        <div class="slider">
-                            <figure data-color="#E24938, #A30F22">
-                                <img src="http://www.supah.it/dribbble/012/1.jpg" />
-                            </figure>
-                            <figure data-color="#6CD96A, #00986F">
-                                <img src="http://www.supah.it/dribbble/012/2.jpg" />
-                            </figure>
-                            <figure data-color="#4795D1, #006EB8">
-                                <img src="http://www.supah.it/dribbble/012/3.jpg" />
-                            </figure>
-                            <figure data-color="#292a2f, #131519">
-                                <img src="http://www.supah.it/dribbble/012/4.jpg" />
-                            </figure>
-                        </div>
-
-                        <div class="cta">
-                            <div class="price">$130</div>
-                            <button class="btn">Add to cart<span class="bg"></span></button>
+                <!-- PRODUTO INICIO 3 -->
+                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg"></div>
                 </div>
             </div>
+            <!-- PRODUTO INICIO 1 -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">
+                <div class="cards col-xs-12 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2 "> 
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PRODUTO INICIO 2 -->
+                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PRODUTO INICIO 3 -->
+                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                            </div>
+                            <div class="item">
+                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- RODAPE -->
+            <div class="row">
+                <div class="container_p col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">
                     <footer id="footer-Section">
                         <div class="footer-top-layout">
                             <div class="container">

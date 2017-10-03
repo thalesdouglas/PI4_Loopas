@@ -4,9 +4,17 @@ body, html{
     height: 100%;
 }
 
+.container_p{
+    padding: 0;
+    margin: 0px;
+}
+
+
 .titulo{
     position: relative;
     margin: 3%;
+    margin: 5px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -19,7 +27,7 @@ body, html{
 
 .pesquisa{
     float: none;
-    margin: auto;
+    margin: 10px auto;
 }
 
 #footer{
@@ -27,4 +35,5 @@ body, html{
 }
 
 .menu{
+    
 }
