@@ -316,7 +316,7 @@
             </div>
             <!-- PAGINAÇÃO -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paginacao">
                     <div class="pagination__wrapper">
                         <ul class="pagination">
                             <li><button class="prev" title="previous page">&#10094;</button></li>

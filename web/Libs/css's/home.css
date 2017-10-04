@@ -10,6 +10,11 @@ body, html{
     
 }
 
+.paginacao{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 .menu_topo{
     background: #cccccc;    
 }
