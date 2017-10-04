@@ -1,9 +1,8 @@
 .cards{
-    height: 500px;
+    height: 400px;
     margin-top: 5%;
     padding-top: 10%;
 }
-
 
 .indicadores{
     background: #000;
@@ -21,16 +20,20 @@
 }
 
 .menu_indicadores{
-    bottom: 0%;
+    bottom: 25%;
     position: absolute ;
 }
 
 .card_desc{
-    margin-top: 30%;
+    margin-top: 10%;
+}
+
+.card_classificacao{
+    display: inline-block;
 }
 
 .botao_produtos{
-    bottom: 10%;
+    bottom: 5%;
     right: 5%;
     position: absolute ;
 }
@@ -46,6 +49,14 @@
 
 .icone_carrinho{
     font-size: 50%;
+
+}
+
+.cores{
+    width: 20px;  
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
 }
 
 

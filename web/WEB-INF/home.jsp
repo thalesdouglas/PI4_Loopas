@@ -5,6 +5,23 @@
         <title> Loo4'$ V1d4 Lok4</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="apple-touch-icon" sizes="57x57" href="Libs/imgs/icone_navegador/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="Libs/imgs/icone_navegador/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="Libs/imgs/icone_navegador/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="Libs/imgs/icone_navegador/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="Libs/imgs/icone_navegador/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="Libs/imgs/icone_navegador/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="Libs/imgs/icone_navegador/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="Libs/imgs/icone_navegador/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="Libs/imgs/icone_navegador/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="Libs/imgs/icone_navegador/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Libs/imgs/icone_navegador/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="Libs/imgs/icone_navegador/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Libs/imgs/icone_navegador/favicon-16x16.png">
+        <link rel="manifest" href="Libs/imgs/icone_navegador/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="Libs/imgs/icone_navegador/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
         <link href="Libs/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -21,9 +38,7 @@
             <!-- TITULO -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu_topo">
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
-                        <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
-                    </div>
+                    <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
                 </div>
             </div>
             <!-- MENU TOPO -->
@@ -135,19 +150,24 @@
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <h4 class="card-title">Produto X</h4>
+                                    <div class="card-text card_classificacao">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
                                     <p class="card-text">Descricao</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Marca</small>
+                                    <h4 class="card-title text-center">Preço</h4>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                            </div>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
-                            <ol class="menu_indicadores carousel-indicators">
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
-                            </ol>
                         </div>
                     </div>
                 </div>
@@ -157,29 +177,34 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <h4 class="card-title">Produto X</h4>
+                                    <div class="card-text card_classificacao">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
                                     <p class="card-text">Descricao</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Marca</small>
+                                    <h4 class="card-title text-center">Preço</h4>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                            </div>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
-                            <ol class="menu_indicadores carousel-indicators">
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
-                            </ol>
                         </div>
                     </div>
                 </div>
@@ -189,29 +214,34 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <h4 class="card-title">Produto X</h4>
+                                    <div class="card-text card_classificacao">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
                                     <p class="card-text">Descricao</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Marca</small>
+                                    <h4 class="card-title text-center">Preço</h4>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                            </div>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
-                            <ol class="menu_indicadores carousel-indicators">
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
-                            </ol>
                         </div>
                     </div>
                 </div>
@@ -223,29 +253,34 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <h4 class="card-title">Produto X</h4>
+                                    <div class="card-text card_classificacao">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
                                     <p class="card-text">Descricao</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Marca</small>
+                                    <h4 class="card-title text-center">Preço</h4>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                            </div>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
-                            <ol class="menu_indicadores carousel-indicators">
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
-                            </ol>
                         </div>
                     </div>
                 </div>
@@ -255,29 +290,34 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <h4 class="card-title">Produto X</h4>
+                                    <div class="card-text card_classificacao">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
                                     <p class="card-text">Descricao</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Marca</small>
+                                    <h4 class="card-title text-center">Preço</h4>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                            </div>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
-                            <ol class="menu_indicadores carousel-indicators">
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
-                            </ol>
                         </div>
                     </div>
                 </div>
@@ -287,65 +327,39 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <h4 class="card-title">Produto X</h4>
+                                    <div class="card-text card_classificacao">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
                                     <p class="card-text">Descricao</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Marca</small>
+                                    <h4 class="card-title text-center">Preço</h4>
                                 </div>
                             </div>
+                            <div class="card-footer">
+                                <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                            </div>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
-                            <ol class="menu_indicadores carousel-indicators">
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
-                            </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- PAGINAÇÃO -->
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paginacao">
-                    <div class="pagination__wrapper">
-                        <ul class="pagination">
-                            <li><button class="prev" title="previous page">&#10094;</button></li>
-                            <li>
-                                <button title="page 1">1</button>
-                            </li>
-                            <li>
-                                <span>...</span>
-                            </li>
-                            <li>
-                                <button title="page 8">8</button>
-                            </li>
-                            <li>
-                                <button title="page 9">9</button>
-                            </li>
-                            <li>
-                                <button title="page 10">10</button>
-                            </li>
-                            <li>
-                                <span>...</span>
-                            </li>
-                            <li>
-                                <button title="last page - page 69">69</button>
-                            </li>
-                            <li><button class="next" title="next page">&#10095;</button></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <!-- RODAPE -->
             <div class="row">
                 <div class="container_p col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">
