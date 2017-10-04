@@ -6,8 +6,13 @@ body, html{
 
 .titulo{
     position: relative;
-    margin: 3%;
+    margin-top: 1%;
     text-align: center;
+}
+
+.pesquisa{
+    float: none;
+    margin: 10px auto;
 }
 
 .line2 {
@@ -103,3 +108,4 @@ section {
 .linhaNavs {
     margin-top: 5%;
 }
+

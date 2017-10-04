@@ -23,7 +23,7 @@
             </div>
             <!-- MENU TOPO -->
             <div class="row">
-                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 menu">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu">
                     <ol class="breadcrumb text-center">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Produtos</a></li>
@@ -35,7 +35,7 @@
             </div>
             <!-- BUSCA -->
             <div class="row">
-                <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6 pesquisa">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pesquisa">
                     <div class="input-group ">
                         <input type="text" class="form-control">
                         <span class="input-group-btn">

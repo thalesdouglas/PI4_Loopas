@@ -16,6 +16,30 @@
                     <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
                 </div>
             </div>
+            
+            <!-- MENU TOPO -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu">
+                    <ol class="breadcrumb text-center">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- BUSCA -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pesquisa">
+                    <div class="input-group ">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
 
             <div class="row line2">
 
@@ -46,7 +70,7 @@
                 </div>
 
                 <!-- Coluna Comprar -->
-                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                <div class="colCard col-xs-12 col-sm-5 col-md-5 col-lg-5">
                     <div class="cardDescricao">
                         <div class="card1">
                             <h1 id="nomeProduto"> OAKLEY </h1>
