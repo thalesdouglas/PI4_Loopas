@@ -7,11 +7,17 @@ body, html{
 .container_p{
     padding: 0;
     margin: 0px;
+    
+}
+
+.menu_topo{
+    background: #cccccc;    
 }
 
 .titulo{
     position: relative;
     margin-top: 1%;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 
@@ -32,5 +38,7 @@ body, html{
 }
 
 .menu{
-    
+    font-family: 'Quicksand', sans-serif;
+    color: #0f0f0f;
+    margin-top: 2%;
 }

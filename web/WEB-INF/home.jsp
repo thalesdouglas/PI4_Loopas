@@ -7,8 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="Libs/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="Libs/css's/incornbuttons.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/home.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/Carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css's/carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css's/pagination.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/footer.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/produtos.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/lateral_menu.css" rel="stylesheet" type="text/css"/>
@@ -17,19 +20,21 @@
         <div class="container_p container-fluid">
             <!-- TITULO -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu_topo">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+                        <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
+                    </div>
                 </div>
             </div>
             <!-- MENU TOPO -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu">
                     <ol class="breadcrumb text-center">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li>Home</li>
+                        <li>Produtos</li>
+                        <li>Contato</li>
+                        <li>Contato</li>
+                        <li>Contato</li>
                     </ol>
                 </div>
             </div>
@@ -63,8 +68,8 @@
                                 <div class="slide-1"></div>
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        <h1>X</h1>
-                                        <p>X</p>
+                                        <h1>50% de Desconto</h1>
+                                        <p>valido até dia 22/10/2015</p>
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +77,8 @@
                                 <div class="slide-2"></div>
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        <h1>X</h1>
-                                        <p>X</p>
+                                        <h1>50% de Desconto</h1>
+                                        <p>valido até dia 22/10/2015</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,8 +86,8 @@
                                 <div class="slide-3"></div>
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        <h1>X</h1>
-                                        <p>X</p>
+                                        <h1>50% de Desconto</h1>
+                                        <p>valido até dia 22/10/2015</p>
                                     </div>
                                 </div>
                             </div>
@@ -114,42 +119,43 @@
                         </div>
                     </nav>
                 </div>
-            </div>
-            <!-- PRODUTO INICIO 1 -->
-            <div class="row">
-                <div class="cards col-xs-12 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2"> 
+                <!-- PRODUTO INICIO 1 -->
+                <div class="col-xs-12 col-sm-3  col-md-3  col-lg-3 ">
                     <div id="myCarousel" class="carousel slide">
-                        <div class="carousel-inner">
+                        <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                        <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
-                            <ol class="carousel-indicators">
+                            <div class="card card_desc">
+                                <div class="card-block">
+                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <p class="card-text">Descricao</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Marca</small>
+                                </div>
+                            </div>
+                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <ol class="menu_indicadores carousel-indicators">
                                 <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
                             </ol>
-                            <div class="card">
-                                <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- PRODUTO INICIO 2 -->
-                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-3  col-md-3  col-lg-3 "> 
                     <div id="myCarousel" class="carousel slide">
-                        <div class="carousel-inner">
+                        <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                        <div class="cards carousel-inner">
                             <div class="item active">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
@@ -159,27 +165,29 @@
                             <div class="item">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="card">
+                            <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <p class="card-text">Descricao</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <small class="text-muted">Marca</small>
                                 </div>
                             </div>
+                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <ol class="menu_indicadores carousel-indicators">
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
+                            </ol>
                         </div>
                     </div>
                 </div>
                 <!-- PRODUTO INICIO 3 -->
-                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                     <div id="myCarousel" class="carousel slide">
-                        <div class="carousel-inner">
+                        <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                        <div class="cards carousel-inner">
                             <div class="item active">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
@@ -189,29 +197,31 @@
                             <div class="item">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="card">
+                            <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <p class="card-text">Descricao</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <small class="text-muted">Marca</small>
                                 </div>
                             </div>
+                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <ol class="menu_indicadores carousel-indicators">
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
+                            </ol>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- PRODUTO INICIO 1 -->
             <div class="row">
-                <div class="cards col-xs-12 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2 "> 
+                <div class=" col-xs-12 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2 "> 
                     <div id="myCarousel" class="carousel slide">
-                        <div class="carousel-inner">
+                        <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                        <div class="cards carousel-inner">
                             <div class="item active">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
@@ -221,27 +231,29 @@
                             <div class="item">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="card">
+                            <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <p class="card-text">Descricao</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <small class="text-muted">Marca</small>
                                 </div>
                             </div>
+                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <ol class="menu_indicadores carousel-indicators">
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
+                            </ol>
                         </div>
                     </div>
                 </div>
                 <!-- PRODUTO INICIO 2 -->
-                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                     <div id="myCarousel" class="carousel slide">
-                        <div class="carousel-inner">
+                        <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                        <div class="cards carousel-inner">
                             <div class="item active">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
@@ -251,27 +263,29 @@
                             <div class="item">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="card">
+                            <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <p class="card-text">Descricao</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <small class="text-muted">Marca</small>
                                 </div>
                             </div>
+                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <ol class="menu_indicadores carousel-indicators">
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
+                            </ol>
                         </div>
                     </div>
                 </div>
                 <!-- PRODUTO INICIO 3 -->
-                <div class="cards col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                     <div id="myCarousel" class="carousel slide">
-                        <div class="carousel-inner">
+                        <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                        <div class="cards carousel-inner">
                             <div class="item active">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
@@ -281,21 +295,54 @@
                             <div class="item">
                                 <img class="d-block img-fluid img-responsive" src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="card">
+                            <div class="card card_desc">
                                 <div class="card-block">
-                                    <h4 class="card-title">Card title</h4>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h4 class="card-title">Produto X - Preco</h4>
+                                    <p class="card-text">Descricao</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <small class="text-muted">Marca</small>
                                 </div>
                             </div>
+                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <ol class="menu_indicadores carousel-indicators">
+                                <li data-target="#myCarousel" style="background: #000;" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" style="background: #2098D1;" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" style="background: #ac2925;" data-slide-to="2"></li>
+                            </ol>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- PAGINAÇÃO -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="pagination__wrapper">
+                        <ul class="pagination">
+                            <li><button class="prev" title="previous page">&#10094;</button></li>
+                            <li>
+                                <button title="page 1">1</button>
+                            </li>
+                            <li>
+                                <span>...</span>
+                            </li>
+                            <li>
+                                <button title="page 8">8</button>
+                            </li>
+                            <li>
+                                <button title="page 9">9</button>
+                            </li>
+                            <li>
+                                <button title="page 10">10</button>
+                            </li>
+                            <li>
+                                <span>...</span>
+                            </li>
+                            <li>
+                                <button title="last page - page 69">69</button>
+                            </li>
+                            <li><button class="next" title="next page">&#10095;</button></li>
+                        </ul>
                     </div>
                 </div>
             </div>
