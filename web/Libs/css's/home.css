@@ -1,0 +1,36 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.container_p{
+    padding: 0;
+    margin: 0px;
+}
+
+.titulo{
+    position: relative;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.slide_config{
+    margin-top: 2%;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pesquisa{
+    float: none;
+    margin: 10px auto;
+}
+
+#footer{
+    margin-top: 2px;
+}
+
+.menu{
+    
+}
