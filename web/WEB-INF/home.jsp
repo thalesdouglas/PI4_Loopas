@@ -33,6 +33,8 @@
         <link href="Libs/css's/footer.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/produtos.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/lateral_menu.css" rel="stylesheet" type="text/css"/>
+        <script src="http://arquivos.weblibras.com.br/auto/wl-min.js"></script>
+        <script src="Libs/js/libras.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="container_p container-fluid">
@@ -86,7 +88,7 @@
                                 <div class="slide-1"></div>
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        <h1>50% de Desconto</h1>
+                                        <h1 alt="50%">50% de Desconto</h1>
                                         <p>valido até dia 22/10/2015</p>
                                     </div>
                                 </div>
@@ -170,8 +172,8 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
-                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                            <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -208,8 +210,8 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
-                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                            <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -246,8 +248,8 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
-                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                            <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -286,8 +288,8 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
-                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                            <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -324,8 +326,8 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
-                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                            <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -362,8 +364,8 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
-                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                            <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                            <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -406,8 +408,8 @@
                                     <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                     <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                                 </div>
-                                <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                                <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                                <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                                <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -444,8 +446,8 @@
                                     <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                     <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                                 </div>
-                                <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                                <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                                <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                                <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -482,8 +484,8 @@
                                     <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                     <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                                 </div>
-                                <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
-                                <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                                <button class="no-wlauto button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                                <a  class="no-wlauto button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                             </div>
                         </div>
                     </div>
