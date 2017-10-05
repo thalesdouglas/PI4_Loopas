@@ -25,6 +25,7 @@
         <link href="Libs/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
         <link href="Libs/css's/incornbuttons.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/home.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css's/carousel.css" rel="stylesheet" type="text/css"/>
@@ -38,7 +39,9 @@
             <!-- TITULO -->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu_topo">
-                    <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
+                    <p class="titulo">Loop4`S V1d4 Lok4</p>
+                    <button class="icone_usuario fa fa-user-o"></button>
+                    <button class="icone_carrinho_Topo fa fa-shopping-cart"></button>
                 </div>
             </div>
             <!-- MENU TOPO -->
@@ -65,7 +68,7 @@
                 </div>
             </div>
             <!-- CAROUSEL -->
-            <div class="row">
+            <div class="row carousel_painel">
                 <div class="container_p col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div id="thumbnail-preview-indicators" class="carousel slide slide_config" data-ride="carousel">
                         <!-- INDICADORES -->
@@ -140,13 +143,13 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
@@ -155,8 +158,8 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
                                     <p class="card-text">Descricao</p>
                                     <h4 class="card-title text-center">Preço</h4>
@@ -167,6 +170,7 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
+                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
@@ -177,13 +181,13 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
@@ -192,8 +196,8 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
                                     <p class="card-text">Descricao</p>
                                     <h4 class="card-title text-center">Preço</h4>
@@ -204,6 +208,7 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
+                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
@@ -214,13 +219,13 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
@@ -229,8 +234,8 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
                                     <p class="card-text">Descricao</p>
                                     <h4 class="card-title text-center">Preço</h4>
@@ -241,6 +246,7 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
+                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
@@ -253,13 +259,13 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
@@ -268,8 +274,8 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
                                     <p class="card-text">Descricao</p>
                                     <h4 class="card-title text-center">Preço</h4>
@@ -280,6 +286,7 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
+                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
@@ -290,13 +297,13 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
@@ -305,8 +312,8 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
                                     <p class="card-text">Descricao</p>
                                     <h4 class="card-title text-center">Preço</h4>
@@ -317,6 +324,7 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
+                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
@@ -327,13 +335,13 @@
                         <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
                         <div class="cards carousel-inner">
                             <div class="item active">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
                             </div>
                             <div class="item">
-                                <img class="d-block img-fluid img-responsive grow" src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
                             </div>
                             <div class="card card_desc">
                                 <div class="card-block">
@@ -342,8 +350,8 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
                                     </div>
                                     <p class="card-text">Descricao</p>
                                     <h4 class="card-title text-center">Preço</h4>
@@ -354,59 +362,179 @@
                                 <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
                                 <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
                             </div>
+                            <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
                             <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- PAGINAÇÃO -->
-            <!-- RODAPE -->
-            <div class="row">
-                <div class="container_p col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">
-                    <footer id="footer-Section">
-                        <div class="footer-top-layout">
-                            <div class="container">
-                                <div class="row">
-                                    <div class=" col-lg-8 col-lg-offset-2">
-                                        <div class="col-sm-4">
-                                            <div class="footer-col-item">
-                                                <h4>Go Travel Cloud</h4>
-                                                <address>
-                                                    501,507 your company address<br>
-                                                    400015 Maharashtra, UK
-                                                </address>
-                                            </div>
+                <!-- RECOMENDADOS -->
+                <div class="row">
+                    <div class=" col-xs-12 col-sm-12  col-md-12 col-lg-12 ">
+                        <div class="recomendacao_texto text-center">Recomendações <i class="icone_recomendacao glyphicon glyphicon-heart-empty"></i></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-xs-12 col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2 "> 
+                        <div id="myCarousel" class="carousel slide">
+                            <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                            <div class="cards carousel-inner">
+                                <div class="item active">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                </div>
+                                <div class="item">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                </div>
+                                <div class="item">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                </div>
+                                <div class="card card_desc">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Produto X</h4>
+                                        <div class="card-text card_classificacao">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="col-sm-4">
-                                            <div class="footer-col-item">
-                                                <h4>Reach Us</h4>
-                                                <div class="item-contact"> <a href="tel:630-885-9200"><span class="link-id">P</span>:<span>630-885-9200</span></a> <a href="tel:630-839.2006"><span class="link-id">F</span>:<span>630-839.2006</span></a> <a href="mailto:info@brandcatmedia.com"><span class="link-id">E</span>:<span>info@brandcatmedia.com</span></a> </div>
-                                            </div>
+                                        <p class="card-text">Descricao</p>
+                                        <h4 class="card-title text-center">Preço</h4>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                    <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                    <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                                </div>
+                                <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                                <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PRODUTO INICIO 2 -->
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div id="myCarousel" class="carousel slide">
+                            <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                            <div class="cards carousel-inner">
+                                <div class="item active">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                </div>
+                                <div class="item">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                </div>
+                                <div class="item">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                </div>
+                                <div class="card card_desc">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Produto X</h4>
+                                        <div class="card-text card_classificacao">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
                                         </div>
-                                        <div class="col-sm-4">
-                                            <div class="footer-col-item">
-                                                <h4>Sign up for Newsletter</h4>
-                                                <form class="signUpNewsletter" action="" method="get">
-                                                    <input name="" class="gt-email form-control" placeholder="You@youremail.com" type="text">
-                                                    <input name="" class="btn-go" value="Go" type="button">
-                                                </form>
+                                        <p class="card-text">Descricao</p>
+                                        <h4 class="card-title text-center">Preço</h4>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                    <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                    <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                                </div>
+                                <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                                <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PRODUTO INICIO 3 -->
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div id="myCarousel" class="carousel slide">
+                            <span class="glyphicon glyphicon-eye-open icone_descricao" aria-hidden="true"></span>
+                            <div class="cards carousel-inner">
+                                <div class="item active">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Los Angeles">
+                                </div>
+                                <div class="item">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="Chicago">
+                                </div>
+                                <div class="item">
+                                    <img class="d-block img-fluid img-responsive " src="Libs/imgs/oculosTeste.jpg" alt="New York">
+                                </div>
+                                <div class="card card_desc">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Produto X</h4>
+                                        <div class="card-text card_classificacao">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p class="card-text">Descricao</p>
+                                        <h4 class="card-title text-center">Preço</h4>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div data-target="#myCarousel" class="cores" style="background-color: #ac2925" type="radio" data-slide-to="0"></div>
+                                    <div  data-target="#myCarousel" class="cores" style="background: #2098D1;" type="radio" data-slide-to="1"></div>
+                                    <div  data-target="#myCarousel" class="cores" style="background: #000;" type="radio" data-slide-to="2"></div>
+                                </div>
+                                <button class="button button-highlight button-circle botao_recomendacao"><i class="fa fa-star-o"></i></button>
+                                <a  class="button button-raised button-primary button-pill botao_produtos">+<i class="fa fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- RODAPE -->
+                <div class="row">
+                    <div class="container_p col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer">
+                        <footer id="footer-Section">
+                            <div class="footer-top-layout">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class=" col-lg-8 col-lg-offset-2">
+                                            <div class="col-sm-4">
+                                                <div class="footer-col-item">
+                                                    <h4>Go Travel Cloud</h4>
+                                                    <address>
+                                                        501,507 your company address<br>
+                                                        400015 Maharashtra, UK
+                                                    </address>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="footer-col-item">
+                                                    <h4>Reach Us</h4>
+                                                    <div class="item-contact"> <a href="tel:630-885-9200"><span class="link-id">P</span>:<span>630-885-9200</span></a> <a href="tel:630-839.2006"><span class="link-id">F</span>:<span>630-839.2006</span></a> <a href="mailto:info@brandcatmedia.com"><span class="link-id">E</span>:<span>info@brandcatmedia.com</span></a> </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="footer-col-item">
+                                                    <h4>Sign up for Newsletter</h4>
+                                                    <form class="signUpNewsletter" action="" method="get">
+                                                        <input name="" class="gt-email form-control" placeholder="You@youremail.com" type="text">
+                                                        <input name="" class="btn-go" value="Go" type="button">
+                                                    </form>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="footer-bottom-layout">
-                            <div class="copyright-tag">Copyright © 2017 Developed by Enumeration. All Rights Reserved for this company.</div>
-                        </div>
-                    </footer>
+                            <div class="footer-bottom-layout">
+                                <div class="copyright-tag">Copyright © 2017 Developed by Enumeration. All Rights Reserved for this company.</div>
+                            </div>
+                        </footer>
+                    </div>
                 </div>
             </div>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="Libs/bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
-        <script src="Libs/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="Libs/js/home.js" type="text/javascript"></script>
-        <script src="Libs/js/produtos.js" type="text/javascript"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="Libs/bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
+            <script src="Libs/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="Libs/js/home.js" type="text/javascript"></script>
+            <script src="Libs/js/produtos.js" type="text/javascript"></script>
     </body>
 </html>
