@@ -7,57 +7,24 @@ public abstract class Pessoa {
     private String sexo;
     private String data_nasc;
     private int numero;
-    private String cep;
-    private String rua;
-    private String estado;
-    private String cidade;
-    private String complemento;
     private String celular;
     private String telefone;
     private String email;
-    private boolean ativo;
+    private boolean statusEstoque;
 
-    public Pessoa(String nome, String cpf, String sexo, String data_nasc, int numero,
-            String cep, String rua, String estado, String cidade,
-            String complemento, String celular, String telefone, String email, boolean ativo) {
-
+    public Pessoa(String nome, String cpf, String sexo, String data_nasc, int numero, String celular, String telefone, String email, boolean statusEstoque) {
         this.nome = nome;
         this.cpf = cpf;
         this.sexo = sexo;
         this.data_nasc = data_nasc;
         this.numero = numero;
-        this.cep = cep;
-        this.rua = rua;
-        this.estado = estado;
-        this.cidade = cidade;
-        this.complemento = complemento;
         this.celular = celular;
         this.telefone = telefone;
         this.email = email;
-        this.ativo = ativo;
-    }
-
-    public Pessoa(String nome, String sexo, String data_nasc, int numero,
-            String cep, String rua, String estado, String cidade,
-            String complemento, String celular, String telefone, String email, boolean ativo) {
-
-        this.nome = nome;
-        this.sexo = sexo;
-        this.data_nasc = data_nasc;
-        this.numero = numero;
-        this.cep = cep;
-        this.rua = rua;
-        this.estado = estado;
-        this.cidade = cidade;
-        this.complemento = complemento;
-        this.celular = celular;
-        this.telefone = telefone;
-        this.email = email;
-        this.ativo = ativo;
+        this.statusEstoque = statusEstoque;
     }
 
     public Pessoa() {
-
     }
 
     public String getNome() {
@@ -100,46 +67,6 @@ public abstract class Pessoa {
         this.numero = numero;
     }
 
-    public String getCep() {
-        return cep;
-    }
-
-    public void setCep(String cep) {
-        this.cep = cep;
-    }
-
-    public String getRua() {
-        return rua;
-    }
-
-    public void setRua(String rua) {
-        this.rua = rua;
-    }
-
-    public String getEstado() {
-        return estado;
-    }
-
-    public void setEstado(String estado) {
-        this.estado = estado;
-    }
-
-    public String getCidade() {
-        return cidade;
-    }
-
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
-    }
-
-    public String getComplemento() {
-        return complemento;
-    }
-
-    public void setComplemento(String complemento) {
-        this.complemento = complemento;
-    }
-
     public String getCelular() {
         return celular;
     }
@@ -164,12 +91,14 @@ public abstract class Pessoa {
         this.email = email;
     }
 
-    public boolean isAtivo() {
-        return ativo;
+    public boolean isStatusEstoque() {
+        return statusEstoque;
     }
 
-    public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
+    public void setStatusEstoque(boolean statusEstoque) {
+        this.statusEstoque = statusEstoque;
     }
 
+    
+    
 }

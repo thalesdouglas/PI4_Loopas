@@ -8,7 +8,6 @@
     background: #000;
 }
 
-
 .descricao{
     border: #000 solid 2px;
 }
@@ -29,7 +28,7 @@
 .botao_produtos{
     bottom: 5%;
     right: 5%;
-    position: absolute ;
+    position: absolute;
 }
 
 .icone_descricao{

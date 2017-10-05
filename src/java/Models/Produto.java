@@ -16,12 +16,12 @@ public class Produto {
     private String lenteCor;
     private String lenteTipo;
     private String descricao;
-    private String fornecedor;
     // Decidir como irá guardar
     private String[] imagem;
+    private String altImagem;
     private BigDecimal preco;
     private boolean promocao;
-    private float porcentagemPromocao;
+    private BigDecimal porcentagemPromocao;
 
     public int getId() {
         return id;
@@ -119,20 +119,20 @@ public class Produto {
         this.descricao = descricao;
     }
 
-    public String getFornecedor() {
-        return fornecedor;
-    }
-
-    public void setFornecedor(String fornecedor) {
-        this.fornecedor = fornecedor;
-    }
-
     public String[] getImagem() {
         return imagem;
     }
 
     public void setImagem(String[] imagem) {
         this.imagem = imagem;
+    }
+
+    public String getAltImagem() {
+        return altImagem;
+    }
+
+    public void setAltImagem(String altImagem) {
+        this.altImagem = altImagem;
     }
 
     public BigDecimal getPreco() {
@@ -151,15 +151,15 @@ public class Produto {
         this.promocao = promocao;
     }
 
-    public float getPorcentagemPromocao() {
+    public BigDecimal getPorcentagemPromocao() {
         return porcentagemPromocao;
     }
 
-    public void setPorcentagemPromocao(float porcentagemPromocao) {
+    public void setPorcentagemPromocao(BigDecimal porcentagemPromocao) {
         this.porcentagemPromocao = porcentagemPromocao;
     }
 
-    public Produto(int id, int quantEstoque, int avalicação, String marca, String modelo, String cor, char genero, char tamanho, boolean statusEstoque, String lenteCor, String lenteTipo, String descricao, String fornecedor, String[] imagem, BigDecimal preco, boolean promocao, float porcentagemPromocao) {
+    public Produto(int id, int quantEstoque, int avalicação, String marca, String modelo, String cor, char genero, char tamanho, boolean statusEstoque, String lenteCor, String lenteTipo, String descricao, String[] imagem, String altImagem, BigDecimal preco, boolean promocao, BigDecimal porcentagemPromocao) {
         this.id = id;
         this.quantEstoque = quantEstoque;
         this.avalicação = avalicação;
@@ -172,8 +172,8 @@ public class Produto {
         this.lenteCor = lenteCor;
         this.lenteTipo = lenteTipo;
         this.descricao = descricao;
-        this.fornecedor = fornecedor;
         this.imagem = imagem;
+        this.altImagem = altImagem;
         this.preco = preco;
         this.promocao = promocao;
         this.porcentagemPromocao = porcentagemPromocao;
@@ -181,5 +181,7 @@ public class Produto {
 
     public Produto() {
     }
+
+    
     
 }
