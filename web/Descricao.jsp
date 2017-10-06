@@ -25,6 +25,7 @@
         <link href="Libs/Bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/IncornButtons/incornbuttons.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/Font-Awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/carousel_descricao.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css/descricao.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -61,31 +62,55 @@
                     </div>
                 </div>
             </div>
+            <!-- Carousel -->
             <div class="row line2">
 
-                <!-- Coluna Carousel -->
-                <div class="fotoProduto col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                    <div class="carousel slide" id="myCarousel">
-                        <!-- Carousel items -->
-                        <div class="carousel-inner">
-                            <div class="active item" data-slide-number="0">
-                                <img src="Libs/imgs/oculosTeste.jpg"></div>
-
-                            <div class="item" data-slide-number="1">
-                                <img src="Libs/imgs/oculosTeste.jpg"></div>
-
-                            <div class="item" data-slide-number="2">
-                                <img src="Libs/imgs/oculosTeste.jpg"></div>
-
-                            <div class="item" data-slide-number="3">
-                                <img src="Libs/imgs/oculosTeste.jpg"></div>
-                        </div><!-- Carousel nav -->
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>                                       
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>                                       
-                        </a>                                
+                <div class="col-xs-9 col-sm-6 col-md-6 col-lg-6 bhoechie-tab-container">
+                    <div class="col-xs-5 col-sm-2 col-md-2 col-lg-2 bhoechie-tab-menu">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item active text-center">
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </a>
+                            <a href="#" class="list-group-item text-center">
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </a>
+                            <a href="#" class="list-group-item text-center">
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </a>
+                            <a href="#" class="list-group-item text-center">
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </a>
+                            <a href="#" class="list-group-item text-center">
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 bhoechie-tab">
+                        <div class="bhoechie-tab-content active">
+                            <center>
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </center>
+                        </div>
+                        <div class="bhoechie-tab-content">
+                            <center>
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </center>
+                        </div>
+                        <div class="bhoechie-tab-content">
+                            <center>
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </center>
+                        </div>
+                        <div class="bhoechie-tab-content">
+                            <center>
+                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                            </center>
+                        </div>
+                        <div class="bhoechie-tab-content">
+                            <center>
+                                <img class="img-responsive" src="Libs/imgs/1.jpg">
+                            </center>
+                        </div>
                     </div>
                 </div>
 
@@ -98,7 +123,7 @@
                             <h1 id="precoProduto"> R$ 400,00 </h1>                            
                         </div>
                         <div class="comprar">
-                            <a href="http://unicorn-ui.com/" class="btnComprar button button-raised button-action button-pill ">Comprar</a>
+                            <a  class="btnComprar button button-raised button-action button-pill ">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -174,6 +199,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="Libs/Bootstrap/js/bootstrap.js" type="text/javascript"></script>
         <script src="Libs/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="Libs/js/carousel_descricao.js" type="text/javascript"></script>
         <script src="Libs/js/home.js" type="text/javascript"></script>
     </body>
 </html>
