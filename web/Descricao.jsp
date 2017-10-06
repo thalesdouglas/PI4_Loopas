@@ -23,6 +23,7 @@
         <meta name="msapplication-TileImage" content="Libs/imgs/icone_navegador/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <link href="Libs/Bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/IncornButtons/incornbuttons.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/Font-Awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css/descricao.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -41,11 +42,11 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu">
                     <ol class="breadcrumb text-center">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li>Home</li>
+                        <li>Produtos</li>
+                        <li>Contato</li>
+                        <li>Contato</li>
+                        <li>Contato</li>
                     </ol>
                 </div>
             </div>
@@ -97,17 +98,17 @@
                             <h1 id="precoProduto"> R$ 400,00 </h1>                            
                         </div>
                         <div class="comprar">
-                            <button type="button" class="btn btn-success btnComprar" > Comprar </button>
+                            <a href="http://unicorn-ui.com/" class="btnComprar button button-raised button-action button-pill ">Comprar</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Container das Navs -->
         <div class="container">
             <div class="row linhaNavs">
-                
+
                 <!-- Coluna das Navs -->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <ul id="myTab" class="nav nav-tabs nav_tabs">
@@ -115,21 +116,21 @@
                         <li><a href="#servico-dois" data-toggle="tab">ESPECIFICAÇÕES</a></li>
                     </ul>
                     <div id="myTabContent" class="tab-content ">
-                        
+
                         <!-- Descricao -->
                         <div class=" descricao tab-pane fade in active" id="servico-um">
                             <h1 id="tituloDescricao"> Descrição </h1>
-                                <p id="descricao"> Lorem Ipsum é simplesmente uma simulação de texto 
-                                    da indústria tipográfica e de impressos, e vem sendo utilizado desde 
-                                    o século XVI, quando um impressor desconhecido pegou uma bandeja de 
-                                    tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem 
-                                    Ipsum sobreviveu não só a cinco séculos, como também ao salto para a 
-                                    editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou 
-                                    na década de 60, quando a Letraset lançou decalques contendo passagens 
-                                    de Lorem Ipsum, e mais recentemente quando passou a ser integrado a 
-                                    softwares de editoração eletrônica como Aldus PageMaker.</p>
+                            <p id="descricao"> Lorem Ipsum é simplesmente uma simulação de texto 
+                                da indústria tipográfica e de impressos, e vem sendo utilizado desde 
+                                o século XVI, quando um impressor desconhecido pegou uma bandeja de 
+                                tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem 
+                                Ipsum sobreviveu não só a cinco séculos, como também ao salto para a 
+                                editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou 
+                                na década de 60, quando a Letraset lançou decalques contendo passagens 
+                                de Lorem Ipsum, e mais recentemente quando passou a ser integrado a 
+                                softwares de editoração eletrônica como Aldus PageMaker.</p>
                         </div>
-                        
+
                         <!-- Especificacoes -->
                         <div class=" tab-pane fade" id="servico-dois">
                             <div class="especificacoes">
