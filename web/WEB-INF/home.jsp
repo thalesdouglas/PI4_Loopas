@@ -22,18 +22,18 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="Libs/imgs/icone_navegador/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <link href="Libs/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/Bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/Font-Awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
-        <link href="Libs/css's/incornbuttons.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/produto_carrinho.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/home.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/carousel.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/pagination.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/footer.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/produtos.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/lateral_menu.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/IncornButtons/incornbuttons.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/produto_carrinho.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/home.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/pagination.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/produtos.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/lateral_menu.css" rel="stylesheet" type="text/css"/>
         <script src="http://arquivos.weblibras.com.br/auto/wl-min.js"></script>
         <script src="Libs/js/libras.js" type="text/javascript"></script>
     </head>
@@ -542,8 +542,8 @@
                 </div>
             </div>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="Libs/bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
-            <script src="Libs/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="Libs/Bootstrap/js/bootstrap.js" type="text/javascript"></script>
+            <script src="Libs/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
             <script src="Libs/js/home.js" type="text/javascript"></script>
             <script src="Libs/js/produtos.js" type="text/javascript"></script>
     </body>

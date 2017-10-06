@@ -22,15 +22,18 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="Libs/imgs/icone_navegador/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <link href="Libs/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-        <link href="Libs/css's/descricao.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/Bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/Font-Awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/descricao.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="container">
-            <div class=row>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="titulo">Loop4`S V1d4 Lok4</h2>
+        <div class="container-fluid">
+            <!-- TITULO -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu_topo">
+                    <p class="titulo">Loop4`S V1d4 Lok4</p>
+                    <button class="icone_usuario fa fa-user-o"></button>
+                    <button class="icone_carrinho_Topo fa fa-shopping-cart"></button>
                 </div>
             </div>
 
@@ -168,8 +171,8 @@
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="Libs/bootstrap-3.3.7/js/bootstrap.js" type="text/javascript"></script>
-        <script src="Libs/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="Libs/Bootstrap/js/bootstrap.js" type="text/javascript"></script>
+        <script src="Libs/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="Libs/js/home.js" type="text/javascript"></script>
     </body>
 </html>
