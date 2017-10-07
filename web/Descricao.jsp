@@ -62,54 +62,45 @@
                     </div>
                 </div>
             </div>
-            <!-- Carousel -->
+
+            <!-- CAROUSEL -->
             <div class="row line2">
 
                 <div class="col-xs-9 col-sm-6 col-md-6 col-lg-6 bhoechie-tab-container">
                     <div class="col-xs-5 col-sm-2 col-md-2 col-lg-2 bhoechie-tab-menu">
                         <div class="list-group">
                             <a href="#" class="list-group-item active text-center">
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                                <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                             </a>
                             <a href="#" class="list-group-item text-center">
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                                <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                             </a>
                             <a href="#" class="list-group-item text-center">
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                                <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                             </a>
                             <a href="#" class="list-group-item text-center">
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                                <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                             </a>
                             <a href="#" class="list-group-item text-center">
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
+                                <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                             </a>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 bhoechie-tab">
                         <div class="bhoechie-tab-content active">
-                            <center>
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
-                            </center>
+                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                         </div>
                         <div class="bhoechie-tab-content">
-                            <center>
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
-                            </center>
+                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                         </div>
                         <div class="bhoechie-tab-content">
-                            <center>
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
-                            </center>
+                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                         </div>
                         <div class="bhoechie-tab-content">
-                            <center>
-                                <img class="img-responsive" src="Libs/imgs/1.jpg" />
-                            </center>
+                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                         </div>
                         <div class="bhoechie-tab-content">
-                            <center>
-                                <img class="img-responsive" src="Libs/imgs/1.jpg">
-                            </center>
+                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
                         </div>
                     </div>
                 </div>
