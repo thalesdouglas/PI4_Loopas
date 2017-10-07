@@ -22,11 +22,13 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="Libs/imgs/icone_navegador/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="Libs/Bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/IncornButtons/incornbuttons.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/Font-Awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css/carousel_descricao.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css/descricao.css" rel="stylesheet" type="text/css"/>
+        <script src="Libs/css/carousel_descricaoResolucao.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="container-fluid">
@@ -66,41 +68,73 @@
             <!-- CAROUSEL -->
             <div class="row line2">
 
-                <div class="col-xs-9 col-sm-6 col-md-6 col-lg-6 bhoechie-tab-container">
-                    <div class="col-xs-5 col-sm-2 col-md-2 col-lg-2 bhoechie-tab-menu">
-                        <div class="list-group">
-                            <a href="#" class="list-group-item active text-center">
+                <!-- CAROUSEL GRANDE -->
+                <div class="amostraG">
+                    <div class="col-xs-9 col-sm-6 col-md-6 col-lg-6 bhoechie-tab-container" >
+
+                        <div  class="col-xs-5 col-sm-2 col-md-2 col-lg-2 bhoechie-tab-menu">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item active text-center">
+                                    <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
+                                </a>
+                                <a href="#" class="list-group-item text-center">
+                                    <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
+                                </a>
+                                <a href="#" class="list-group-item text-center">
+                                    <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
+                                </a>
+                                <a href="#" class="list-group-item text-center">
+                                    <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
+                                </a>
+                                <a href="#" class="list-group-item text-center">
+                                    <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-10 col-md-10 col-lg-10 bhoechie-tab">
+                            <div class="bhoechie-tab-content active">
                                 <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                            </a>
-                            <a href="#" class="list-group-item text-center">
+                            </div>
+                            <div class="bhoechie-tab-content">
                                 <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                            </a>
-                            <a href="#" class="list-group-item text-center">
+                            </div>
+                            <div class="bhoechie-tab-content">
                                 <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                            </a>
-                            <a href="#" class="list-group-item text-center">
+                            </div>
+                            <div class="bhoechie-tab-content">
                                 <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                            </a>
-                            <a href="#" class="list-group-item text-center">
+                            </div>
+                            <div class="bhoechie-tab-content">
                                 <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                            </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 bhoechie-tab">
-                        <div class="bhoechie-tab-content active">
-                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                        </div>
-                        <div class="bhoechie-tab-content">
-                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                        </div>
-                        <div class="bhoechie-tab-content">
-                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                        </div>
-                        <div class="bhoechie-tab-content">
-                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
-                        </div>
-                        <div class="bhoechie-tab-content">
-                            <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg" />
+                </div>
+
+                <!-- CAROUSEL PEQUENO -->
+                <div class="amostraP">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                        <div class="carousel slide" id="myCarousel">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item" data-slide-number="0">
+                                    <img src="Libs/imgs/oculosTeste.jpg"></div>
+
+                                <div class="item" data-slide-number="1">
+                                    <img src="Libs/imgs/oculosTeste.jpg"></div>
+
+                                <div class="item" data-slide-number="2">
+                                    <img src="Libs/imgs/oculosTeste.jpg"></div>
+
+                                <div class="item" data-slide-number="3">
+                                    <img src="Libs/imgs/oculosTeste.jpg"></div>
+                            </div><!-- Carousel nav -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                            </a>                                
                         </div>
                     </div>
                 </div>
