@@ -40,7 +40,7 @@
                     <p class="titulo">Loop4`S V1d4 Lok4</p>
                     <button class="icone_usuario fa fa-user-o"></button>
                     <button class="icone_carrinho_Topo fa fa-shopping-cart"></button>
-                    
+
                 </div>
             </div>
 
@@ -174,14 +174,14 @@
                         <section id="content1" class="tab-content">
                             <h3>Descrição</h3>
                             <p > Lorem Ipsum é simplesmente uma simulação de texto 
-                                    da indústria tipográfica e de impressos, e vem sendo utilizado desde 
-                                    o século XVI, quando um impressor desconhecido pegou uma bandeja de 
-                                    tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem 
-                                    Ipsum sobreviveu não só a cinco séculos, como também ao salto para a 
-                                    editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou 
-                                    na década de 60, quando a Letraset lançou decalques contendo passagens 
-                                    de Lorem Ipsum, e mais recentemente quando passou a ser integrado a 
-                                    softwares de editoração eletrônica como Aldus PageMaker.</p>
+                                da indústria tipográfica e de impressos, e vem sendo utilizado desde 
+                                o século XVI, quando um impressor desconhecido pegou uma bandeja de 
+                                tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem 
+                                Ipsum sobreviveu não só a cinco séculos, como também ao salto para a 
+                                editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou 
+                                na década de 60, quando a Letraset lançou decalques contendo passagens 
+                                de Lorem Ipsum, e mais recentemente quando passou a ser integrado a 
+                                softwares de editoração eletrônica como Aldus PageMaker.</p>
                         </section>
 
                         <section id="content2" class="tab-content" style="width: 100%">
@@ -217,7 +217,9 @@
                     </div>
                 </div>
             </div>
+          
         </div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="Libs/Bootstrap/js/bootstrap.js" type="text/javascript"></script>
         <script src="Libs/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

@@ -72,10 +72,10 @@
                         <div class="panel-heading">
                             <div class="panel-title">
                                 <div class="row">
-                                    <div class="col-xs-4 col-sm-10 col-md-10 col-lg-10">
+                                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 divSeuCarrinho">
                                         <h5><span class="glyphicon glyphicon-shopping-cart"></span> Seu Carrinho </h5>
                                     </div>
-                                    <div class="col-xs-8 col-sm-2 col-md-2 col-lg-2">
+                                    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                                         <button type="button" class="btn btn-primary btn-sm btn-block">
                                             <span class="glyphicon glyphicon-share-alt"></span> Continuar Comprando
                                         </button>
