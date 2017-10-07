@@ -36,10 +36,11 @@
         <div class="container-fluid">
             <!-- TITULO -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu_topo">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menu_topo">    
                     <p class="titulo">Loop4`S V1d4 Lok4</p>
                     <button class="icone_usuario fa fa-user-o"></button>
                     <button class="icone_carrinho_Topo fa fa-shopping-cart"></button>
+                    
                 </div>
             </div>
 
@@ -168,7 +169,7 @@
                         <label for="tab1"><i class="fa fa-code"></i><span>Descricao</span></label>
 
                         <input id="tab2" type="radio" name="tabs">
-                        <label for="tab2"><i class="fa fa-pencil-square-o"></i><span>Especificacoes</span></label>
+                        <label for="tab2"><i class="fa fa-pencil-square-o"></i><span>Especificações</span></label>
 
                         <section id="content1" class="tab-content">
                             <h3>Descrição</h3>
@@ -181,7 +182,6 @@
                                     na década de 60, quando a Letraset lançou decalques contendo passagens 
                                     de Lorem Ipsum, e mais recentemente quando passou a ser integrado a 
                                     softwares de editoração eletrônica como Aldus PageMaker.</p>
-
                         </section>
 
                         <section id="content2" class="tab-content" style="width: 100%">
