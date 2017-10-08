@@ -26,6 +26,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         <link href="Libs/Bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/IncornButtons/incornbuttons.css" rel="stylesheet" type="text/css"/>
+        <link href="Libs/css/footer.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/Font-Awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <link href="Libs/css/carrinho.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -87,10 +88,11 @@
                         </div>
                         <div class="panel-body">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><img class="img-responsive" src="Libs/imgs/oculosTeste.jpg">
+                                <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1 colImg">
+                                    <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg">
                                 </div>
                                 <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5 colNomeProduto">
-                                    <h4><strong>OAKLEY</strong></h4>
+                                    <h4><strong>ÓCULOS OAKLEY PRETO</strong></h4>
                                 </div>
                                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                                     <div class="col-xs-4 col-sm-9 col-md-9 col-lg-9 colPreco">
@@ -108,10 +110,11 @@
                             </div>
                             <hr>
                             <div class="row">
-                                <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><img class="img-responsive" src="Libs/imgs/oculosTeste.jpg">
+                                <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1 colImg">
+                                    <img class="img-responsive" src="Libs/imgs/oculosTeste.jpg">
                                 </div>
                                 <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5 colNomeProduto">
-                                    <h4><strong>OAKLEY</strong></h4>
+                                    <h4><strong>ÓCULOS OAKLEY PRETO</strong></h4>
                                 </div>
                                 <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
                                     <div class="col-xs-4 col-sm-9 col-md-9 col-lg-9 colPreco">
@@ -129,23 +132,21 @@
                             </div>
                             <hr>
                             <div class="row">
-                                <div class="text-center">
-                                    <div class="col-xs-3 col-sm-10 col-md-10 col-lg-10 colFrete">
-                                        <h6 class="frete text-right">Frete</h6>
-                                    </div>
-                                    <div class="col-xs-9 col-sm-2 col-md-2 col-lg-2">
-                                        <input type="text" class="form-control input-sm">
-                                    </div>
+                                <div class="col-xs-3 col-sm-10 col-md-10 col-lg- colFrete">
+                                    <h6 class="frete text-right">Frete</h6>
+                                </div>
+                                <div class="col-xs-9 col-sm-2 col-md-2 col-lg-2">
+                                    <input type="text" class="form-control input-sm">
                                 </div>
                             </div>
                         </div>
                         <div class="panel-footer">
                             <div class="row text-center">
                                 <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 colTotal">
-                                    <h4 >Total <strong>R$ 800.00</strong></h4>
+                                    <h1 class="h1Total">Total <strong>R$ 800.00</strong></h1>
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                    <button type="button" class="btn btn-success btn-block">Comprar</button               
+                                    <button type="button" class="btn btn-success btn-block btnComprar">Comprar</button               
                                 </div>
                             </div>
                         </div>
@@ -153,10 +154,11 @@
                 </div>
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="Libs/Bootstrap/js/bootstrap.js" type="text/javascript"></script>
-        <script src="Libs/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="Libs/js/carousel_descricao.js" type="text/javascript"></script>
-        <script src="Libs/js/home.js" type="text/javascript"></script>
-    </body>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Libs/Bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="Libs/Bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="Libs/js/carousel_descricao.js" type="text/javascript"></script>
+    <script src="Libs/js/home.js" type="text/javascript"></script>
+</body>
 </html>

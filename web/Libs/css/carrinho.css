@@ -102,11 +102,20 @@ body, html{
 }
 
 .h1MeuCarrinho {
+    font-weight: bold;
     display: block;
     margin: auto;
-    font-size: 100%;
-    color: blue;
+    font-size: 120%;
+    color: black;
     padding-bottom: 5%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.h1Total {
+    font-weight: bold;
+    font-size: 120%;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .colPreco {
@@ -120,7 +129,11 @@ body, html{
 .btnContinuarComprando {
     width: 100%;
 }
-    
+
+.btnComprar {
+    margin-top: 2%;
+}
+
 @media (max-width: 760px) {
     .colMeuCarrinho {
         text-align: center;
@@ -144,4 +157,5 @@ body, html{
         text-align: center;
         padding-bottom: 5%;
     }
+
 }
